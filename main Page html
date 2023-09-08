@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Cookie Byte</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/6.png" type="image/x-icon">
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/2.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Leena</a></li>
+                <li><a href="#">Rahaf</a></li>
+                <li><a href="#">Fatima</a></li>
+                <li><a href="#">Joud</a></li>
+                <li><a href="#">Meeting Minutes</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p> Welcome to</p>
+            <h1><span>Cookie Byte</span> team!</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
