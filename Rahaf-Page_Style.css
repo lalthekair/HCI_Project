@@ -5,10 +5,18 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
+
+body{
+    background-color: #6a1f74;
+
+}
+
+
 header {
-    background-color: rgb(183, 166, 255);
+    background-color: #6a1f74;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -16,8 +24,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+   
 }
  
+
 
 .logo {
     text-decoration: none;
@@ -25,8 +35,8 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
-}
 
+}
 
 .navigation a{
     text-decoration: none;
@@ -70,7 +80,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: rgb(198, 176, 243);
+    color: orange;
     font-size: 3em;
     font-weight: 600;
 }
@@ -87,7 +97,7 @@ section {
 
 .main-btn {
     color: white;
-    background-color: rgb(193, 150, 233);
+    background-color: orange ;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -101,7 +111,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: blueviolet;
+    background-color: rgb(210, 143, 17);
     transform: scale(1.1em);
 }
 
@@ -115,7 +125,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color:  rgb(183, 166, 255);
+    color: white;
     font-size: 2.2em;
     font-weight:800;
     margin-bottom: 30px;
@@ -182,12 +192,12 @@ section {
     font-size: 1.5em;
 
 }
+
 /* Footer styling */
 
-
 footer{
-    background-color: rgb(183, 166, 255);
-    color:black;
+    background-color: black;
+    color:white;
     padding: 1px ;
     display: flex;
     justify-content: space-between;
@@ -197,7 +207,7 @@ footer{
 .footer-title{
     font-size: 1em;
     font-weight: 600;
-    padding-top: 15px;
+    padding: 15px;
     
 }
    
@@ -245,7 +255,6 @@ footer{
     
 }
 
-
 @media(max-width:641px){
     body{
         font-size: 12px;
@@ -268,9 +277,3 @@ footer{
 
     
 }
-
-
-.footer .social-icons{
-    padding-top: 10px;
-}
-
