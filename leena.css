@@ -1,30 +1,35 @@
+.header_text{
+    font-size: 55px;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 25px;
+}    
+.header_text h1 span{
+    color: #ffb864;
+}
 body{
     background-color: rgb(255, 255, 250);
     color: black;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12pt;
-}
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12pt;
-    font-style: italic;
-}
-td{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12pt;
+.body_text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16pt;
 }
 h2{
-    font-family: "Sofia", sans-serif;
-    color: purple;
+    font-family: 'Press Start 2P', cursive;;
+    color: #6a1f74;
     text-align: center;
-    font-style: italic;
 }
 a{
-    color: darkviolet;
+    color: #6a1f74;
 }
 .bullets_list{
     color: white;
 
+}
+.title{
+    color: #6a1f74;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 250);
 }
