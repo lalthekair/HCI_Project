@@ -157,33 +157,37 @@
         <!-- Get in touch -->
         <div style="background-color: rgb(251,187,99, 0.75);">
             <h2>Get in touch</h2>
-            <form method="post" action="mailto:leena.thekair@gmail.com" enctype="text/plain">
-                <center>
-                    <table style="padding: 50px;">
+            <table style="padding: 50px;">
+                <tr>
+                    <td>
+                        <form method="post" action="mailto:leena.thekair@gmail.com" enctype="text/plain"> 
+                                <input type = "text" name = "name" id="name" placeholder=" Your Name" required="true" size="45">
+                                <input type="text" name="subject" id="subject" placeholder=" Subject" required="true" size="45">
+                                <br><br>
 
-                        <tr>
-                            <td>
-                                <input type = "text" name = "name" placeholder="Your Name" required="true" width="500px">
-                                <input type="text" name="subject" placeholder="Subject Line" required="true" width="500px">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <textarea name="message" placeholder="Your message here ..." required="true"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="submit" value="Send">
-                            </td>
-                        </tr>
+                                <textarea name="message" id="message" placeholder=" Your message here ..." required="true" rows="10" cols="100"></textarea>
+                                <br><br>
 
-                    </table>
-                </center>
-            </form>
+                                <input type="submit" value="Send" style="width: 100px;">
+                        </form>
+                    </td>
+                    <td style="padding-left: 50px; font-size: 20px;">
+                        <p>For questions or collaborations please feel free to reach out to me! I'll be sure to reply at my earliest convenience.</p>
+                    </td>
+                </tr>
+            </table>
         </div>
 
-        <!-- Footer goes here <3 -->
+        <!-- Footer -->
+        <div style="background-color: #6a1f74;">
+            <div class="container">
+                <nav>
+                    <img src="images/2.png" class="logo">
+                    <p style="color: white;">&copy; 2023 - Cookie Byte project team<br>BSCS 3345: Human and Computer Interaction Course.
+                    <br><a href="https://github.com/lalthekair/HCI_Project" target="_blank" style="color: white;">Github repository</a></p>
+                </nav>
+            </div>
+        </div>
 
     </body>
 
