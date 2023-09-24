@@ -58,3 +58,8 @@ a{
     font-family: 'Poppins', sans-serif;
     list-style-type: url();
 }
+.CV_Viewer{
+    width: 1000px;
+    height: 600px;
+    padding-bottom: 50px;
+}
