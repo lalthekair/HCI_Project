@@ -75,14 +75,15 @@ nav ul li a:hover::after{
 
 
 header {
-    background-color: #6a1f74;
+    /* background-color: rgb(252, 225, 255); */
+    background-color: white;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 0px 200px;
    
 }
  
@@ -90,16 +91,16 @@ header {
 
 .logo {
     text-decoration: none;
-    color: aliceblue;
+    color: #6a1f74;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 25px;
 
 }
 
 .navigation a{
     text-decoration: none;
-    color: aliceblue;
+    color: #6a1f74;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
@@ -107,7 +108,7 @@ header {
 }
 
 .navigation a:hover{
-    color:rgb(178, 100, 237)
+    color: rgb(251,187,99)
 }
 
 
@@ -225,6 +226,7 @@ section {
 
 .info{
     text-align: center;
+    color: #6a1f74;
 }
 
 .info h3{
