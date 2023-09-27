@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(171, 233, 247);
+    background-color: rgb(247, 210, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@ body{
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: aqua;
+    color: rgb(175, 42, 175);
 }
 
 .contactInfo ul li span{
@@ -123,7 +123,7 @@ body{
 }
 
 .contactInfo.education h5{
-    color:aqua;
+    color: rgb(175, 42, 175);;
     font-weight: 500;
 }
 
@@ -151,7 +151,7 @@ body{
     top:0;
     left:0;
     height:100% ;
-    background: aqua;
+    background:rgb(175, 42, 175);
     
 
 }
@@ -176,7 +176,7 @@ body{
 }
 
 .title2{
-    color: #003147;
+    color: rgb(145, 34, 145);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -207,7 +207,7 @@ p{
 
 .about .box .text h4{
     text-transform: uppercase;
-    color: #2a7da2;
+    color: rgb(175, 42, 175);
     font-size: 16px;
 }
 
@@ -238,6 +238,62 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: rgb(175, 42, 175);;
 
 }
+
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+
+}
+
+.interest ul li{
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa{
+    color: rgb(175, 42, 175); ;
+    font-size: 18px;
+    width: 20px;
+
+}
+
+@media (max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul{
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 600px){
+    .about .box{
+        flex-direction: column;
+    }
+
+    .interest ul{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .skills .box {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+   
+   
+    }
+
+
+
+
