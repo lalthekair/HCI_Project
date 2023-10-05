@@ -1,0 +1,16 @@
+.minutes_box{
+    background-color: #ffb864;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30px;
+  }
+  .minutes_table{
+    background-color: azure;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+  }
+  .minutes_table th{
+    color: #6a1f74;
+  }

@@ -68,3 +68,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
   color: #ffb864;
 }
+.footy_logo{
+  width: 40px;
+  height: 40px;
+}
