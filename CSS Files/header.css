@@ -68,7 +68,23 @@ nav ul li a:hover::after{
 .header-text h1 span{
   color: #ffb864;
 }
+
+.footer {
+  height: 90px;
+  background-color: #6a1f74; 
+  color: white;
+  padding: 20px 0;
+  padding: 1px ;
+  display: flex;
+  justify-content: space-between;
+}
 .footy_logo{
+  margin-top: 20px;
+  margin-left: 20px;
   width: 40px;
   height: 40px;
+}
+.footer-link{
+  margin-top: 10px;
+  margin-right: 2%;
 }

@@ -74,33 +74,7 @@
     padding: 30px;
     background-color: #ffb864;
 }
-
 .center {
     text-align: center;
 }
-
-
-.footer {
-    height: 90px;
-    background-color: #6a1f74; 
-    color: white;
-    padding: 20px 0;
-    padding: 1px ;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.footy_logo{
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-.footer-link{
-    margin-top: 20px;
-    margin-left: 50px;
-
-}
-
-
 
