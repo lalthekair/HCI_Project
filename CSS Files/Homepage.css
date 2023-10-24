@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color:#6a1f74;
     overflow: auto;
     margin: 0;
     padding: 0;
@@ -62,7 +62,7 @@ color:gold
     height: 600px;
     padding: 30px 20px;
     background-color: aliceblue;
-    box-shadow: 0 30px 50px white;
+    
 }
 
 #slide{
@@ -190,3 +190,59 @@ color:gold
     background-color:goldenrod;
 }
 
+
+.explanation {
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 50px;
+    margin-top: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.explanation h2 {
+    color: #6a1f74;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.explanation p {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.explanation:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+    transition: 0.5s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: #6a1f74;
+    color: #FFE998;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.FooterTitle{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.FooterTitle span{
+    color: gold;
+}
+
+.footer .social-icons a
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color:#FFE998;
+    padding:0.5em;
+    
+
+}
