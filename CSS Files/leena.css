@@ -21,6 +21,7 @@ body{
 .body_text{
     font-family: 'Poppins',sans-serif;
     font-size: 16pt;
+	color: black;
 }
 h2{
     font-family: 'Press Start 2P', cursive;
