@@ -8,6 +8,9 @@
     scroll-behavior: smooth;
 }
 
+
+/* CV */
+
 body{
     background-color: rgb(247, 210, 255);
     display: flex;
@@ -16,7 +19,7 @@ body{
     min-height: 100vh;
 }   
 
-.container {
+.container1 {
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -30,7 +33,7 @@ body{
 
 }
 
-.container .left_Side
+.container1 .left_Side
 {
     position: relative;
     background: #003147;
@@ -159,7 +162,7 @@ body{
 
 
 
-.container .right_Side
+.container1 .right_Side
 {
     position: relative;
     background: aliceblue;
@@ -264,6 +267,19 @@ p{
 
 }
 
+.download-cv a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-cv a:hover {
+    background-color: #45a049;
+}
+
+
 @media (max-width: 1000px){
     .container{
         margin: 10px;
@@ -293,7 +309,6 @@ p{
    
    
     }
-
 
 
 
