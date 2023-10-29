@@ -1,7 +1,7 @@
 .header_text{
     font-size: 55px;
     font-family: 'Poppins',sans-serif;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     color: white;
 }    
 .header_text h1 span{
@@ -57,10 +57,9 @@ a{
     color: black;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    list-style-type: url();
 }
 .CV_Viewer{
-    width: 1000px;
-    height: 600px;
+    width: 80%;
+    height: 80%;
     padding-bottom: 50px;
 }
