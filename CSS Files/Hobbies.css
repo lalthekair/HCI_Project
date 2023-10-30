@@ -11,6 +11,49 @@
     font-family: "Poppins", sans-serif;
 }
 
+header{
+    background-color:#6a1f74;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+
+
+}
+
+.logo1{
+text-decoration: none;
+color: #FFE998;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.8em;
+cursor: default;
+
+
+}
+
+.navigation a{
+
+color: #FFE998;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+opacity: 1;
+animation: slideTop .5s ease forwards;
+
+}
+
+.navigation a:hover{
+color:gold
+
+
+}
+
 .showcase{
     position: absolute;
     right: 0;
@@ -35,16 +78,18 @@
     top: 0;
     left: 0;
     width:100% ;
-    padding: 40px 100px;
+    padding: 90px 100px;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    background-color: transparent;
 }
 .toggle{
     position: relative;
@@ -87,6 +132,7 @@
 .text{
     position: relative;
     z-index: 10;
+    
 
 }
 
@@ -98,9 +144,9 @@
 }
 
 .text h3{
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 2em;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 3em;
      
 }
 
@@ -184,27 +230,29 @@
 .container{
     position: relative;
     width: 100%;
-    min-height: 350vh;
+    height: 100%;
+    padding: 15px 20px;
+    top: 700px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #111;
-    
+    background-color:black
+  
     
 }
 
 .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     
 }
 
 .gallery img{
-    width: 100% ;
+    width: 95% ;
+    height: 100%;
 }
 
-@media (max-width: 991px){
+@media (max-width: 980px){
     .showcase,
     .showcase header{
         padding: 40px;
