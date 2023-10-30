@@ -35,6 +35,15 @@ padding-left: 100px;
 
 }
 
+.cookie-img{
+    width: 10%;
+    height: auto;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .navigation a{
 
 color: #FFE998;
