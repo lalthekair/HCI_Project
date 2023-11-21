@@ -3,7 +3,8 @@ body{
     overflow: auto;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -18,49 +19,53 @@ header{
     padding: 20px 40px;
     position: relative;
     z-index: 1000;
+}
 
+.logo img {
+height: 50px;
+width: auto;
+}
 
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo{
-text-decoration: none;
-color: #FFE998;
-text-transform: uppercase;
-font-weight: 700;
-font-size: 1.8em;
-cursor: default;
-padding-left: 100px;
-
-
-}
-
+width: 140px;
+    }
 .cookie-img{
     width: 10%;
     height: auto;
 }
-
-h2{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.navigation a{
-
-color: #FFE998;
-text-decoration: none;
-font-size: 1.1em;
-font-weight: 500;
-padding-left: 15px;
-opacity: 1;
-animation: slideTop .5s ease forwards;
-
-}
-
-.navigation a:hover{
-color:gold
-
-
-}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+    }
+    nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    }
+    nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    }
+    
+    nav ul li a:hover::after{
+    width: 100%;
+    }
 
 .container{
     position: absolute;
@@ -230,29 +235,22 @@ color:gold
     transform: scale(1.1);
 }
 
-.footer{
-    background-color: #6a1f74;
-    color: #FFE998;
-    padding: 1em;
+.footer {
+    height: 90px;
+    background-color: #6a1f74; 
+    color: white;
+    padding: 20px 0;
+    padding: 1px ;
     display: flex;
     justify-content: space-between;
-    height: 100%;
-}
-
-.FooterTitle{
-    font-size: 1.2em;
-    font-weight: 600;
-}
-.FooterTitle span{
-    color: gold;
-}
-
-.footer .social-icons a
-{
-    font-size: 1.2em;
-    font-weight: 600;
-    color:#FFE998;
-    padding:0.5em;
-    
-
-}
+  }
+  .footy_logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  .footer-link{
+    margin-top: 10px;
+    margin-right: 2%;
+  }
