@@ -95,7 +95,7 @@ color:gold
     position: relative;
     width: 60px;
     height: 60px;
-    background: url(../images/Hobbies/ICONS/next.png);
+    background: url(../Fimages/next.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -103,7 +103,7 @@ color:gold
 }
 
 .toggle.active{
-    background: url("../images/Hobbies/ICONS/close.png");
+    background: url("../Fimages/close.png");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
