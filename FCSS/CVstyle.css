@@ -99,7 +99,7 @@ section{
     width: 200px;
     height: 220px;
     border-radius: 50%; /* Added unit */
-    background-image: url(../images/CV/profileimage.png);
+    background-image: url(../Fimages/profileimage.png);
     background-repeat: no-repeat;
     overflow: hidden;
 }
