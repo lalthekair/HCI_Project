@@ -254,3 +254,34 @@ nav ul li {
     margin-top: 10px;
     margin-right: 2%;
   }
+
+ @media screen and (max-width: 600px) {
+    body {
+        background-color: #6a1f74; /* Change background color when browser is minimized */
+    }
+
+    header {
+        /* Modify header styles for minimized browser */
+        background-color: #6a1f74;
+        position: relative;
+    }
+
+    .logo img {
+        /* Modify logo styles for minimized browser */
+        height: 30px;
+    }
+
+    nav {
+        /* Modify nav styles for minimized browser */
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        /* Modify nav list item styles for minimized browser */
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Add more styles for other elements as needed */
+}  
