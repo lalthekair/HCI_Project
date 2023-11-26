@@ -5,54 +5,43 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header{
     background-color:#6a1f74;
-    width: 95%;
-    max-width: 100%;
-    position: fixed;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
+    /* width: 95%;
+    max-width: 100%; */
     position: relative;
     z-index: 1000;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 10px 10%;
 }
-
-.logo img {
-height: 50px;
-width: auto;
-}
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
-
 .logo{
-width: 140px;
-    }
-.cookie-img{
-    width: 10%;
-    height: auto;
+    width: 140px;
 }
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
     
-    }
-    nav ul li a{
+}
+nav ul li a{
     color:#fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
-    }
-    nav ul li a::after{
+}
+nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
@@ -61,12 +50,15 @@ nav ul li {
     left: 0;
     bottom: -6px;
     transition: 0.5s;
-    }
-    
-    nav ul li a:hover::after{
+} 
+nav ul li a:hover::after{
     width: 100%;
-    }
+}
 
+.cookie-img{
+    width: 10%;
+    height: auto;
+}
 .container{
     position: absolute;
     left: 50%;
@@ -77,11 +69,10 @@ nav ul li {
     height: 600px;
     padding: 30px 20px;
     background-color: aliceblue;
-    
 }
 
 #slide{
-    width: max-content;
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -262,33 +253,38 @@ nav ul li {
     margin-right: 2%;
   }
 
- @media screen and (max-width: 600px) {
-    body {
-        background-color: #6a1f74; /* Change background color when browser is minimized */
+
+  @media screen and (max-width: 896px) {
+
+    #slide {
+        margin-top: 200px;
     }
+}
+/* 
+ @media screen and (max-width: 800px) {
 
     header {
-        /* Modify header styles for minimized browser */
-        background-color: #6a1f74;
         position: relative;
     }
 
-    .logo img {
-        /* Modify logo styles for minimized browser */
-        height: 30px;
-    }
-
     nav {
-        /* Modify nav styles for minimized browser */
         display: block;
         text-align: center;
     }
 
-    nav ul li {
-        /* Modify nav list item styles for minimized browser */
-        display: block;
-        margin: 10px 0;
+    nav ul{
+        margin-left: 40%;
     }
 
-    /* Add more styles for other elements as needed */
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        font-size: 8px;
+    }
 }  
+
+@media screen and (max-width: 1073px) {
+    .logo {
+        padding-left: 40%;
+    }
+} */
