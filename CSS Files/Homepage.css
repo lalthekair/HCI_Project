@@ -281,10 +281,17 @@ nav ul li a:hover::after{
         margin: 10px 0;
         font-size: 8px;
     }
-}  
+}  */
 
-@media screen and (max-width: 1073px) {
+@media screen and (max-width: 1085px) {
     .logo {
         padding-left: 40%;
     }
-} */
+}
+
+@media screen and (max-width: 790px) {
+    .explanation {
+        padding: 50px;
+        margin: 50px;
+        margin-top: 70%;
+}
