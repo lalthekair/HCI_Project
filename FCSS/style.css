@@ -10,54 +10,116 @@
 
 }
 
-header{
-        background-color:#6a1f74;
-        width: 100%;
-        position: fixed;
-        z-index: 999;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 200px;
-
-
-
+/* Image */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.logo{
+body {
+    background-color: #6a1f74;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    background-image: url(img/10.png);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    background-color: #6a1f74;
+}
+
+.logo2 img {
+    height: 50px;
+    width: auto;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo2{
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #FFE998;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+header {
+    background-color: #6a1f74;
+    width: 100%;
+    position: relative;
+    z-index:1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    padding: 10px 200px;
+}
+
+.logo1 {
+    text-decoration: none;
+    color: #ffe998;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
     cursor: default;
-    
-
 }
 
-.navigation a{
-
-    color: #FFE998;
+.navigation a {
+    color: #ffe998;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
     opacity: 0;
-    animation: slideTop .5s ease forwards;
-
+    animation: slideTop 0.5s ease forwards;
 }
 
-.navigation a:hover{
-    color:gold
-
-
+.navigation a:hover {
+    color: gold;
 }
 
-
-
-section{
-    padding: 100px 200px
-
+/* Main Section Styles */
+section {
+    padding: 100px 200px;
 }
 
 .main1 {
@@ -69,7 +131,6 @@ section{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
 
 .main1 h2{   
