@@ -30,7 +30,7 @@ body {
 }
 
 
-.container .main-content h2{
+.containerrh .main-content h2{
     font-family: 'Arial Black', sans-serif;
     font-size: 36px;
     color: rgb(255, 255, 255);
@@ -43,7 +43,7 @@ body {
 }
 
 
-.container .main-content .ds-title{
+.containerrh .main-content .ds-title{
     font-family: 'Arial Black', sans-serif;
     font-size: 36px;
     color: rgb(64, 15, 64);
@@ -59,7 +59,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.container .main-content .GB-title{
+.containerrh .main-content .GB-title{
     font-family: 'Arial Black', sans-serif;
     font-size: 36px;
     color: rgb(64, 15, 64);
@@ -75,7 +75,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.container .main-content .wii-title{
+.containerrh .main-content .wii-title{
     font-family: 'Arial Black', sans-serif;
     font-size: 36px;
     color: rgb(64, 15, 64);
@@ -94,7 +94,7 @@ body {
 
 
 
-.container {
+.containerrh {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
