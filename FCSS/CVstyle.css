@@ -16,7 +16,7 @@
     width: 100%;
     top: 20%;
     left: 0px;
-    position: fixed;
+    position:absolute;
     margin: 0px;
     z-index: 999;
     display: flex;
@@ -41,7 +41,7 @@ body{
   padding: 10px 10%;
   top: 0px;
   z-index: 999;
-  position: fixed;
+  position: absolute;
   background-color: #6a1f74;
 }
 
