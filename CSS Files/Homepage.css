@@ -201,6 +201,7 @@ nav ul li a:hover::after{
 }
 .buttons button:hover{
     background-color:goldenrod;
+    cursor: pointer;
 }
 
 
