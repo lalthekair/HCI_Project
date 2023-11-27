@@ -14,10 +14,10 @@
 .header{
     background-color:#6a1f74;
     width: 100%;
-    top: 0px;
+    top: 20%;
     left: 0px;
     position: fixed;
-    margin: 0px ;
+    margin: 0px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -34,9 +34,23 @@ body{
 }
 
 
+.std_header{
+    height: 10%;
+    width: 100%;
+  background-image: url(img/10.png);
+  padding: 10px 10%;
+  top: 0px;
+  z-index: 999;
+  position: fixed;
+  background-color: #6a1f74;
+}
+
+.logo2{
+    width: 140px;
+}
 
 
-.logo{
+.logo1{
 text-decoration: none;
 color: #FFE998;
 text-transform: uppercase;
@@ -72,7 +86,7 @@ section{
     width: 100%;
     max-width: 1000px;
     min-height: 100px;
-    margin-top: 80px;
+    margin-top: 250px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgb(61, 4, 86);
@@ -294,7 +308,7 @@ p{
     font-size: 20px; /* Adjust the font size as needed */
     padding: 8px 15px; /* Adjust padding for a smaller size */
     margin: 10px; /* Adjust the margin as needed */
-    top: 180px;
+    top: 250px;
     left: 10px; /* Move the button to the left */
     position: fixed; 
     background-color: #FFE998;
@@ -354,7 +368,4 @@ p{
         grid-template-columns: repeat(1,1fr)  
     }
 }
-
-
-
 
