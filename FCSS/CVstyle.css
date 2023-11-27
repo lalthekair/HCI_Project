@@ -67,20 +67,18 @@ section{
 
 
 
-.container{
+.containerff{
     position: relative;
     width: 100%;
     max-width: 1000px;
     min-height: 100px;
-    background: #FFE998;
-    margin: 100px;
     margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgb(61, 4, 86);
 }
 
-.container .Left_Side
+.containerff .Left_Side
 {
     position: relative;
     background: rgb(61, 2, 61);
@@ -202,7 +200,7 @@ section{
     background:#FFE998;
 
 }
-.container .Right_Side
+.containerff .Right_Side
 {
     position: relative;
     background: rgb(222, 211, 222);
@@ -326,7 +324,7 @@ p{
 }
 
 @media (max-width: 1000px){
-    .container
+    .containerff
     {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
